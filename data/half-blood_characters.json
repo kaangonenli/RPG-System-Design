@@ -1,0 +1,34 @@
+{
+  "party_roster": [
+    {
+      "id": "char_maya",
+      "name": "Maya",
+      "class": "Ranger (Korucu)",
+      "race": "İnsan",
+      "level": 3,
+      "equipment": ["Annesinin Yayı", "Gizlenme Eldivenleri", "Pelerin"],
+      "stats": { "STR": 10, "DEX": 16, "CON": 12, "INT": 11, "WIS": 14, "CHA": 10 },
+      "background_story": "Shaniyah'da babasıyla yaşıyordu. Annesinden kalan yayı kullanır."
+    },
+    {
+      "id": "char_ascal",
+      "name": "Ascal",
+      "class": "Rogue (Rogue)",
+      "race": "Shorki (Felid - Kedi Soyu)",
+      "level": 3,
+      "equipment": ["Hançer", "Hırsız Aletleri"],
+      "stats": { "STR": 8, "DEX": 17, "CON": 12, "INT": 13, "WIS": 10, "CHA": 14 },
+      "background_story": "Shaniyah pazarında büyümüş, çevik ve kurnaz bir hırsız."
+    },
+    {
+      "id": "char_ashera",
+      "name": "Ashera",
+      "class": "Cleric (Rahip)",
+      "race": "Yarı-Elf",
+      "level": 3,
+      "equipment": ["Kutsal Sembol", "Kalkan", "Topuz"],
+      "stats": { "STR": 12, "DEX": 10, "CON": 14, "INT": 10, "WIS": 16, "CHA": 12 },
+      "background_story": "Ascal'ın ablası. Elinden geldiğince onu korumaya çalışır."
+    }
+  ]
+}
