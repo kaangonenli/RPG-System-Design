@@ -1,0 +1,42 @@
+{
+  "setting_name": "Half-blood (Original IP)",
+  "author": "Kaan Gönenli",
+  "description": "A world featuring anthropomorphic races (Shorkis) and culturally distinct city-states.",
+  "races": [
+    {
+      "id": "shorki_base",
+      "name": "Shorki",
+      "type": "Humanoid (Beastkin)",
+      "traits": [
+        { "name": "Vaha Uyumu", "effect": "Sıcak iklim etkilerine karşı bağışıklık." }
+      ],
+      "subraces": [
+        {
+          "id": "shorki_felid",
+          "name": "Felid (Kedi Soyu)",
+          "ability_bonuses": { "DEX": 2, "CHA": 1 },
+          "features": ["Tırmanma Hızı (30ft)", "Sessiz Adımlar (Gizlilik Avantajı)"]
+        },
+        {
+          "id": "shorki_testudine",
+          "name": "Testudine (Kaplumbağa Soyu)",
+          "ability_bonuses": { "CON": 2, "WIS": 1 },
+          "features": ["Doğal Zırh (AC 13 + DEX)", "Nefes Tutma (1 saat)"]
+        },
+        {
+          "id": "shorki_strigine",
+          "name": "Strigine (Baykuş Soyu)",
+          "ability_bonuses": { "INT": 2, "WIS": 1 },
+          "features": ["Gece Görüşü (120ft)", "Uçuş Hızı (30ft - Hafif Zırh ile)"]
+        }
+      ]
+    }
+  ],
+  "regions": [
+    { "id": "loc_shaniyah", "name": "Shaniyah", "inhabitants": ["Shorki"], "bonus": "Survival (Hayatta Kalma) +2" },
+    { "id": "loc_nornduahr", "name": "Nornduahr", "inhabitants": ["Cüceler"], "bonus": "Stonecunning (Taş ustalığı)" },
+    { "id": "loc_yefebel", "name": "Yefebel", "inhabitants": ["Elfler"], "bonus": "Nature (Doğa) veya Perception (Algı) uzmanlığı" },
+    { "id": "loc_novaria", "name": "Novaria", "inhabitants": ["İnsanlar", "Büyücüler"], "bonus": "Arcana (Büyü İlmi) +2" },
+    { "id": "loc_jurbile", "name": "Jurbile", "inhabitants": ["Devler"], "bonus": "Athletics (Atletizm) +2" }
+  ]
+}
