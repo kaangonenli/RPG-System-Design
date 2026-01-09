@@ -1,0 +1,33 @@
+{
+  "campaign_id": "lmop_001",
+  "title": "Perdeli'nin Kayıp Madeni",
+  "original_title": "Lost Mine of Phandelver",
+  "description": "Cüce ve Cincüce ittifakının kayıp madeni olan Yankı Mağarası'nı bulma serüveni.",
+  "quest_flow": [
+    {
+      "quest_id": "q_01_goblin_arrows",
+      "title": "Goblin Okları",
+      "trigger": "Start Adventure",
+      "objectives": [
+        { "id": "obj_01", "description": "Gundren'in malzemelerini ulaştır.", "is_completed": false },
+        { "id": "obj_02", "combat_encounter_id": "enc_goblin_ambush" }
+      ],
+      "rewards": { "xp": 75, "gold": 10 }
+    },
+    {
+      "quest_id": "q_02_cragmaw_hideout",
+      "title": "Çakıldiş Sığınağı",
+      "prerequisite_quest": "q_01_goblin_arrows",
+      "objectives": [
+        { "id": "obj_rescue", "target": "npc_sildar", "action": "Rescue" },
+        { "id": "obj_boss", "target": "Klarg (Bugbear)", "action": "Defeat" }
+      ]
+    },
+    {
+      "quest_id": "q_final_echo_cave",
+      "title": "Yankı Mağarası",
+      "is_main_quest": true,
+      "boss_fight": { "enemy": "Nezzar (Black Spider)", "minions": ["Giant Spider"] }
+    }
+  ]
+}
