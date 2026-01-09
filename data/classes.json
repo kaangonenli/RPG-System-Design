@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "version": "5.1",
+    "language": "tr-TR",
+    "description": "D&D 5e SRD Classes adapted for Turkish localization.",
+    "author": "Kaan Gönenli"
+  },
+  "classes": [
+    {
+      "id": "artificer_tr",
+      "name": "Mucit",
+      "original_name": "Artificer",
+      "hit_die": 8,
+      "primary_ability": ["Intelligence"],
+      "proficiencies": { "armor": ["Hafif", "Orta", "Kalkan"], "saving_throws": ["Yapı", "Zeka"] },
+      "class_specific": { "mechanic": "Infusions (Eşya Etkinleştirme)", "tool_expertise": true }
+    },
+    {
+      "id": "barbarian_tr",
+      "name": "Barbar",
+      "original_name": "Barbarian",
+      "hit_die": 12,
+      "primary_ability": ["Strength"],
+      "class_specific": { "mechanic": "Rage (Öfke)", "rage_damage_bonus": "+2" }
+    },
+    {
+      "id": "bard_tr",
+      "name": "Ozan",
+      "original_name": "Bard",
+      "hit_die": 8,
+      "primary_ability": ["Charisma"],
+      "class_specific": { "mechanic": "Bardic Inspiration (Şairane İlham)", "die_type": "d6" }
+    },
+    {
+      "id": "cleric_tr",
+      "name": "Rahip",
+      "original_name": "Cleric",
+      "hit_die": 8,
+      "primary_ability": ["Wisdom"],
+      "class_specific": { "mechanic": "Channel Divinity", "subclass_type": "Divine Domain" }
+    },
+    {
+      "id": "druid_tr",
+      "name": "Druid",
+      "original_name": "Druid",
+      "hit_die": 8,
+      "primary_ability": ["Wisdom"],
+      "class_specific": { "mechanic": "Wild Shape (Yabani Şekil)" }
+    },
+    {
+      "id": "fighter_tr",
+      "name": "Dövüşçü",
+      "original_name": "Fighter",
+      "hit_die": 10,
+      "primary_ability": ["Strength", "Dexterity"],
+      "class_specific": { "mechanic": "Action Surge", "fighting_style": true }
+    },
+    {
+      "id": "monk_tr",
+      "name": "Keşiş",
+      "original_name": "Monk",
+      "hit_die": 8,
+      "primary_ability": ["Dexterity", "Wisdom"],
+      "class_specific": { "mechanic": "Ki Points", "unarmored_defense": true }
+    },
+    {
+      "id": "paladin_tr",
+      "name": "Paladin",
+      "original_name": "Paladin",
+      "hit_die": 10,
+      "primary_ability": ["Strength", "Charisma"],
+      "class_specific": { "mechanic": "Divine Smite", "lay_on_hands": true }
+    },
+    {
+      "id": "ranger_tr",
+      "name": "Korucu",
+      "original_name": "Ranger",
+      "hit_die": 10,
+      "primary_ability": ["Dexterity", "Wisdom"],
+      "class_specific": { "mechanic": "Favored Enemy", "natural_explorer": true }
+    },
+    {
+      "id": "rogue_tr",
+      "name": "Rogue",
+      "original_name": "Rogue",
+      "hit_die": 8,
+      "primary_ability": ["Dexterity"],
+      "class_specific": { "mechanic": "Sneak Attack", "sneak_attack_dice": "1d6" }
+    },
+    {
+      "id": "sorcerer_tr",
+      "name": "Sihirbaz",
+      "original_name": "Sorcerer",
+      "hit_die": 6,
+      "primary_ability": ["Charisma"],
+      "class_specific": { "mechanic": "Sorcery Points", "metamagic": true }
+    },
+    {
+      "id": "warlock_tr",
+      "name": "Sehhar",
+      "original_name": "Warlock",
+      "hit_die": 8,
+      "primary_ability": ["Charisma"],
+      "class_specific": { "mechanic": "Pact Magic", "unique_slots": true }
+    },
+    {
+      "id": "wizard_tr",
+      "name": "Büyücü",
+      "original_name": "Wizard",
+      "hit_die": 6,
+      "primary_ability": ["Intelligence"],
+      "class_specific": { "mechanic": "Arcane Recovery", "spellbook": true }
+    }
+  ]
+}
