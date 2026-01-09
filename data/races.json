@@ -1,0 +1,40 @@
+{
+  "metadata": { "type": "Race Data", "system": "D&D 5e SRD - Turkish", "count": 16 },
+  "races": [
+    { "id": "human", "name": "İnsan", "speed": 30, "size": "Medium", "traits": [{ "name": "Çok Yönlülük", "effect": "Tüm yetenek puanları +1" }] },
+    { 
+      "id": "dwarf", "name": "Cüce", "speed": 25, "size": "Medium", 
+      "subraces": [
+        { "id": "hill_dwarf", "name": "Tepe Cücesi", "bonus": { "CON": 2, "WIS": 1 }, "feature": "HP Max +1/Level" },
+        { "id": "mountain_dwarf", "name": "Dağ Cücesi", "bonus": { "CON": 2, "STR": 2 }, "feature": "Hafif/Orta Zırh Eğitimi" }
+      ]
+    },
+    { 
+      "id": "elf", "name": "Elf", "speed": 30, "size": "Medium", 
+      "subraces": [
+        { "id": "high_elf", "name": "Yüce Elf", "bonus": { "DEX": 2, "INT": 1 }, "feature": "1 Büyücü Hüneri (Cantrip)" },
+        { "id": "wood_elf", "name": "Orman Elfi", "bonus": { "DEX": 2, "WIS": 1 }, "feature": "Hız 35ft, Doğada Gizlenme" }
+      ]
+    },
+    { 
+      "id": "halfling", "name": "Buçukluk", "speed": 25, "size": "Small", 
+      "traits": [{ "name": "Şanslı", "effect": "d20'de 1 gelirse tekrar at." }, { "name": "Cesur", "effect": "Korkuya karşı avantaj." }],
+      "subraces": [
+        { "id": "lightfoot", "name": "Çabuk Adım", "bonus": { "DEX": 2, "CHA": 1 }, "feature": "Büyüklerin arkasına saklanma" },
+        { "id": "stout", "name": "Yiğit", "bonus": { "DEX": 2, "CON": 1 }, "feature": "Zehre direnç" }
+      ]
+    },
+    { "id": "gnome", "name": "Cücecin", "speed": 25, "size": "Small", "bonus": { "INT": 2 }, "traits": [{ "name": "Cücecin Marifeti", "effect": "Büyülere karşı avantaj (INT/WIS/CHA)." }] },
+    { "id": "dragonborn", "name": "Ejderdoğan", "speed": 30, "size": "Medium", "bonus": { "STR": 2, "CHA": 1 }, "traits": [{ "name": "Nefes Silahı", "mechanic": "Hasar türü ataya bağlı (Asit, Ateş, Yıldırım vb.)" }] },
+    { "id": "tiefling", "name": "Tiefling", "speed": 30, "size": "Medium", "bonus": { "CHA": 2, "INT": 1 }, "traits": [{ "name": "Cehennem Direnci", "effect": "Ateş hasarına direnç" }, { "name": "Büyü", "spells": ["Thaumaturgy", "Hellish Rebuke", "Darkness"] }] },
+    { "id": "half_elf", "name": "Yarı-Elf", "speed": 30, "size": "Medium", "bonus": { "CHA": 2, "Choice_1": 1, "Choice_2": 1 }, "traits": [{ "name": "Fey Ancestry", "effect": "Uyutulamaz" }] },
+    { "id": "half_orc", "name": "Yarı-Ork", "speed": 30, "size": "Medium", "bonus": { "STR": 2, "CON": 1 }, "traits": [{ "name": "Acımasız Dayanıklılık", "effect": "0 HP'de 1 HP ile ayakta kal (1/Long Rest)" }] },
+    { "id": "goliath", "name": "Goliath", "speed": 30, "size": "Medium", "bonus": { "STR": 2, "CON": 1 }, "traits": [{ "name": "Taşın Dayanıklılığı", "effect": "Hasarı 1d12+CON azalt (Reaction)" }] },
+    { "id": "bugbear", "name": "Öcügoblin", "speed": 30, "size": "Medium", "bonus": { "STR": 2, "DEX": 1 }, "traits": [{ "name": "Uzun Kollar", "effect": "+5ft menzil" }, { "name": "Sürpriz Saldırı", "effect": "İlk turda +2d6 hasar" }] },
+    { "id": "goblin", "name": "Goblin", "speed": 30, "size": "Small", "bonus": { "DEX": 2, "CON": 1 }, "traits": [{ "name": "Küçük Öfke", "effect": "Büyük hedeflere +Level hasar" }, { "name": "Çevik Kaçış", "effect": "Bonus Action ile Gizlen/Ayrıl" }] },
+    { "id": "hobgoblin", "name": "Hobgoblin", "speed": 30, "size": "Medium", "bonus": { "CON": 2, "INT": 1 }, "traits": [{ "name": "Savaş Eğitimi", "effect": "Hafif zırh ve 2 silah" }, { "name": "Yüzü Kurtarmak", "effect": "Başarısız zar +Müttefik sayısı (max +5)" }] },
+    { "id": "orc", "name": "Ork", "speed": 30, "size": "Medium", "bonus": { "STR": 2, "CON": 1 }, "traits": [{ "name": "Agresif", "effect": "Bonus Action ile düşmana doğru hareket" }] },
+    { "id": "centaur", "name": "Atadam", "speed": 40, "size": "Medium", "bonus": { "STR": 2, "WIS": 1 }, "traits": [{ "name": "Hücum", "effect": "30ft koşup vurursa Bonus Action ile toynak saldırısı" }] },
+    { "id": "satyr", "name": "Satir", "speed": 35, "size": "Medium", "bonus": { "CHA": 2, "DEX": 1 }, "traits": [{ "name": "Büyü Direnci", "effect": "Büyülere karşı avantaj" }, { "name": "Neşeli Sıçrayışlar", "effect": "Zıplama mesafesine +1d8 ekle" }] }
+  ]
+}
